@@ -1,0 +1,58 @@
+.headerList {
+    justify-content: space-between;
+    width: 46rem;
+    position: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.criadas {
+    display: flex;
+    font-family: "Inter";
+    gap: 0.5rem;
+}
+
+.criadas p {
+    color: var(--blue);
+    font-size: 14px;
+  
+}
+.criadas span {
+    background: var(--gray-400);
+    width: 1.5rem;
+    height: 1.18rem;
+    border-radius: 40%;
+    position: relative; 
+    color: var(--gray-100);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.concluidas {
+    display: flex;
+    font-family: "Inter";
+    gap: 0.5rem;
+}
+
+.concluidas p {
+    color: var(--purple);
+    font-size: 14px;
+
+}
+
+.concluidas span {
+    background: var(--gray-400);
+    width: 1.5rem;
+    height: 1.18rem;
+    border-radius: 40%;
+    position: relative; 
+    color: var(--gray-100);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

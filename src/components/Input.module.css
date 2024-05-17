@@ -7,7 +7,15 @@
 
   height: 3.375rem;
   padding: 1rem;
-  width: 100%;
+  width: 39.875rem;
 
   line-height: 140%;
 }
+
+.input::placeholder {
+    color: var(--gray-400)
+  }
+
+  .input:focus {
+    border-color: var(--purple-dark);
+  }
